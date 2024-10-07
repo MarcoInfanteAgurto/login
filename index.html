@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="logo">
+            <img src="./imagenes/Logo-VG_Tpt02.png" alt="">
+        </div>
+        <div class="formulario">
+            <form action="">
+                <h2>BIENVENIDOS</h2>
+                <div class="carrera">
+                    <input type="radio" name = carreras>
+                    <label for="">Analisis de Sistemas</label>
+                    <input type="radio" name = carreras>
+                    <label for="">Produccion agraria</label>
+                </div>
+                <div class=" dato-persona">
+                    <input type="text" placeholder="Nombres Completo" pattern="^[A-ZÑÁÉÍÓÚ][a-zñáéíóú]+\s[A-ZÑÁÉÍÓÚ][a-zñáéíóú]+$">
+                    <input type="text" placeholder="Apellidos" pattern="^[A-ZÑÁÉÍÓÚ][a-zñáéíóú]+$">
+                    <input type="number" placeholder="Edad" required min="0" max="120">
+                    <input type="email" placeholder="Gmail"  pattern="^[a-zA-Z0-9._%+-]+@gmail\.com$">
+                    <input type="password" placeholder="Contraseña"  pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}$">
+                    <a href="">¿Olvidaste la contraseña?</a>
+                    <div class="terminos">
+                        <input type="checkbox">
+                        <label for="">Aceptar la politica de privacidad de los terminos y condiciones</label>
+                    </div>
+                    <div class="enviar">
+                        <button type="submit0">REGISTRARME</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
